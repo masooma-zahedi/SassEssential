@@ -15,6 +15,7 @@ $roundness: 20px 0 20px 0;
 	color: $color-btn-text;
 }
 
+<<<<<<< HEAD
 $color-btns: (
 	default: $color-main,
 	hot: $red,
@@ -23,6 +24,20 @@ $color-btns: (
 );
 
 @each $key, $value in $color-btns {
+=======
+// $color-btn-names: 'default', 'hot', 'cool';
+// $color-btn-values: $color-main, $red, $blue;
+
+$color-btns : (
+	default : $color-main,
+	hot: $red,
+	cool: $blue,
+	awesome: $purple
+);
+
+@each $key, $value in $color-btns {
+
+>>>>>>> 03_09b
 	.btn-#{$key} {
 		@extend %btn;
 		background-color: $value;
