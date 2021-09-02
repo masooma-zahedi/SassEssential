@@ -36,7 +36,6 @@ $color-btns : (
 		float: left;
 		@include imagegrid(3, 2%);
 	}
-	
 	img {
 		display: block;
 		border-radius: nth($roundness, 1);
