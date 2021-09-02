@@ -29,7 +29,7 @@ $color-btns : (
 );
 
 @each $key, $value in $color-btns {
-
+  
 	.btn-#{$key} {
 		@extend %btn;
 		background-color: $value;
