@@ -415,11 +415,19 @@ h6 {
 .btn-cool {
   background-color: #0076A3; }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 .btn-awesome {
   background-color: #6D73C2; }
 >>>>>>> 9090e74770cf9da44ce4d986e00956baa3413e0b
+=======
+
+.btn-awesome {
+  background-color: #6D73C2; }
+=======
+>>>>>>> 03_09b
+>>>>>>> e7247b128b9fa385e20f7cea6c5d13753fcf0ef2
 
 .grid:before, .grid:after {
   content: '';

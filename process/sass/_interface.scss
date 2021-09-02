@@ -15,14 +15,16 @@ $roundness: 20px 0 20px 0;
 	color: $color-btn-text;
 }
 
-$color-btns: (
-	default: $color-main,
+
+$color-btns : (
+	default : $color-main,
 	hot: $red,
 	cool: $blue,
 	awesome: $purple
 );
 
 @each $key, $value in $color-btns {
+
 	.btn-#{$key} {
 		@extend %btn;
 		background-color: $value;
